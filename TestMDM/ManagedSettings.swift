@@ -49,6 +49,10 @@ class ManagedSettings : ObservableObject  {
                 print("'\(value)' of type '\(t)'")
                 
                 switch value {
+                    case is Date:
+                        let dateValue =  value as! Date
+                        tempSettings.append(Setting(id: index, key: key, value: "\(dateValue)", type: "Date"))
+                    break;
                     case is Bool:
                         let boolValue =  value as! Bool
                         tempSettings.append(Setting(id: index, key: key, value: "\(boolValue)", type: "Boolean"))

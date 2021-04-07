@@ -9,11 +9,18 @@ import SwiftUI
 
 struct SettingRow: View {
     var setting: Setting
+    
     var body: some View {
         HStack {
-        VStack {
+        VStack(alignment: .leading) {
             Text(setting.key)
-            Text(setting.value)
+            
+            HStack {
+                Text(setting.type)
+                Text(" - ")
+                Text(setting.value)
+                Spacer()
+            }
         }
             Spacer()
         }
@@ -22,6 +29,6 @@ struct SettingRow: View {
 
 struct SettingRow_Previews: PreviewProvider {
     static var previews: some View {
-        SettingRow(setting: Setting(id: 1, key: "Key1", value: "The Value"))
+        SettingRow(setting: Setting(id: 1, key: "Key1", value: "The Value", type: "String"))
     }
 }

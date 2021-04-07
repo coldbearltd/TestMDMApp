@@ -10,6 +10,7 @@ import Foundation
 struct Setting: Codable, Hashable, Identifiable {
     var id: Int
     var key: String
-    var value: String   
+    var value: String
+    var type: String
 }
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C33CBD26261DA87A00A41A1B /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CBD25261DA87A00A41A1B /* SettingRow.swift */; };
+		C33CBD28261DA8D100A41A1B /* SettingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CBD27261DA8D100A41A1B /* SettingList.swift */; };
+		C33CBD2C261DA94C00A41A1B /* ManagedSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CBD2B261DA94C00A41A1B /* ManagedSettings.swift */; };
+		C33CBD2E261DA96B00A41A1B /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CBD2D261DA96B00A41A1B /* Setting.swift */; };
 		C3423553261DA67100A071A7 /* TestMDMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3423552261DA67100A071A7 /* TestMDMApp.swift */; };
 		C3423555261DA67100A071A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3423554261DA67100A071A7 /* ContentView.swift */; };
 		C3423557261DA67200A071A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3423556261DA67200A071A7 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C33CBD25261DA87A00A41A1B /* SettingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRow.swift; sourceTree = "<group>"; };
+		C33CBD27261DA8D100A41A1B /* SettingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingList.swift; sourceTree = "<group>"; };
+		C33CBD2B261DA94C00A41A1B /* ManagedSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedSettings.swift; sourceTree = "<group>"; };
+		C33CBD2D261DA96B00A41A1B /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		C342354F261DA67100A071A7 /* TestMDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3423552261DA67100A071A7 /* TestMDMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMDMApp.swift; sourceTree = "<group>"; };
 		C3423554261DA67100A071A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +65,10 @@
 				C3423556261DA67200A071A7 /* Assets.xcassets */,
 				C342355B261DA67200A071A7 /* Info.plist */,
 				C3423558261DA67200A071A7 /* Preview Content */,
+				C33CBD25261DA87A00A41A1B /* SettingRow.swift */,
+				C33CBD27261DA8D100A41A1B /* SettingList.swift */,
+				C33CBD2B261DA94C00A41A1B /* ManagedSettings.swift */,
+				C33CBD2D261DA96B00A41A1B /* Setting.swift */,
 			);
 			path = TestMDM;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33CBD26261DA87A00A41A1B /* SettingRow.swift in Sources */,
+				C33CBD2C261DA94C00A41A1B /* ManagedSettings.swift in Sources */,
+				C33CBD2E261DA96B00A41A1B /* Setting.swift in Sources */,
 				C3423555261DA67100A071A7 /* ContentView.swift in Sources */,
+				C33CBD28261DA8D100A41A1B /* SettingList.swift in Sources */,
 				C3423553261DA67100A071A7 /* TestMDMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

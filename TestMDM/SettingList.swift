@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct SettingList: View {
+    
+    @ObservedObject var model = ManagedSettings()
+    
     var body: some View {
-        if(settings.count == 0) {
+        if(model.settings.count == 0) {
             VStack {
                 Text("There are no settings");
             }
         } else {
-            List(settings) {
+            List(model.settings) {
                 setting in SettingRow(setting: setting)
             }
         }
